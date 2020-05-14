@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(silhouette-of-mountains-1323550.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  max-width: 700px;
+  margin: 100px auto;
+}
+
+.center h1 {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.center p {
+  padding: 3rem;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.center .form {
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.center .form .data,
+button {
+  text-align: center;
+  border: none;
+  height: 45px;
+  width: 163px;
+}
+
+.center .form button {
+  border: none;
+  border-radius: 3px;
+  background: #aa5a72;
+  color: #f8f7fb;
+}
